@@ -44,7 +44,8 @@ body {
     color: #EEEEEE;
 }
 
-.score {
+.score-h,
+.score-g {
     font-family: 'Cursed Timer ULiL';
     color: #F94F6D;
     font-weight: 400;
@@ -68,8 +69,8 @@ button {
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
-    padding: 0.5rem;
-    /* line-height: 155%; */
+    padding: 0.6rem 0.5rem 0.5rem 0.5rem;
+    line-height: 100%;
     /* or 155% */
 
     text-align: center;
